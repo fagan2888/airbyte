@@ -28,7 +28,7 @@ There are only 3 easy steps to do that:
 
 1.Publish your custom connector onto Dockerhub first \(or any image hub that Airbyte can access\).
 
-2.In the UI, go to the Admin section, and click on \[+ New connector\] on the top right
+2.In the UI, go to the Admin section, and click on `[+ New connector]` on the top right
 
 ![](https://lh4.googleusercontent.com/8lW_KRkw8w8q96JUJ7Snxj9MRC8toOyd7avLEj9anID53Q7Vj1bkPRSp8skV1VcIJPWsjWugX0pj0jCZ2jdaBwqhZED9E7DN5SRX_FWyRMdQu1eRojCTGm3xW2R8xYC9JE_kQtwn)
 
@@ -39,6 +39,4 @@ There are only 3 easy steps to do that:
 Once this is filled, you will see your connector in the UI and your team will be able to use it, **from the UI and Airbyte's API too.**
 
 Note that this new connector could just be an updated version of an existing connector that you adapted to your specific edge case. Anything is possible!
-
-### \*\*\*\*
 
