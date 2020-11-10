@@ -32,7 +32,7 @@ Now you will see a wizard that allows you choose the data you want to send throu
 
 ![](.gitbook/assets/02_set-up-sources%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
-As of our alpha launch, we have one database source \(Postgres\) and two API sources \(an exchange rate API and the Stripe API\). We're currently building an integration framework that makes it easy to create sources and destinations, so you should expect many more soon. Please reach out to us if you need a specific integration or would like to help build one.
+As of our alpha launch, we have one database source \(Postgres\) and two API sources \(an exchange rate API and the Stripe API\). We're currently building an integration framework that makes it easy to create sources and destinations, so you should expect many more soon. Please reach out to us if you need a specific connector or would like to help build one.
 
 For now, we will start out with a Postgres source and destination.
 
@@ -100,7 +100,7 @@ You should see the rows from the source database inside the destination database
 
 And there you have it. You've taken data from one database and replicated it to another. All of the actual configuration for this replication only took place in the UI.
 
-That's it! This is just the beginning of Airbyte. If you have any questions at all, please reach out to us on [Slack](https://slack.airbyte.io/). We’re still in alpha, so if you see any rough edges or want to request an integration you need, please create an issue on our [Github](https://github.com/airbytehq/airbyte) or leave a thumbs up on an existing issue.
+That's it! This is just the beginning of Airbyte. If you have any questions at all, please reach out to us on [Slack](https://slack.airbyte.io/). We’re still in alpha, so if you see any rough edges or want to request a connector you need, please create an issue on our [Github](https://github.com/airbytehq/airbyte) or leave a thumbs up on an existing issue.
 
 Thank you and we hope you enjoy using Airbyte.
 

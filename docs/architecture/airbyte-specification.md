@@ -2,7 +2,7 @@
 
 ## Key Takeaways
 
-* The specification is Docker-based; this allows a developer to write an integration in any language they want. All they have to do is put that code in a Docker container that adheres to the interface and protocol described below.
+* The specification is Docker-based; this allows a developer to write a connector in any language they want. All they have to do is put that code in a Docker container that adheres to the interface and protocol described below.
   * We currently provide templates to make this even easier for those who prefer to work in python or java. These templates allow the developer skip any Docker setup so that they can just implement code against well-defined interfaces in their language of choice.
 * The specification is designed to work as a CLI. The Airbyte app is built on top of this CLI.
 * The specification defines a standard interface for implementing data integrations: Sources and Destinations.
@@ -15,7 +15,7 @@
 2. [Integration primitives](airbyte-specification.md#primitives)
 3. [Details of the protocol to pass information between integrations](airbyte-specification.md#the-airbyte-protocol)
 
-This document is focused on the interfaces and primitives around integrations. You can better understand how that fits into the bigger picture by checking out the [Airbyte Architecture]().
+This document is focused on the interfaces and primitives around integrations. You can better understand how that fits into the bigger picture by checking out the [Airbyte Architecture](airbyte-specification.md).
 
 ## General
 
